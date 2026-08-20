@@ -1,6 +1,6 @@
 {
   "name": "payload-invoices",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gapless sequential invoices and credit notes for Payload ecommerce, with a frozen snapshot and PDF output, no runtime dependencies.",
   "keywords": [
     "payload",
@@ -55,7 +55,8 @@
     "vitest": "4.0.18"
   },
   "peerDependencies": {
-    "payload": ">=3.50 <4"
+    "@payloadcms/plugin-ecommerce": ">=3.88 <4",
+    "payload": ">=3.88 <4"
   },
   "engines": {
     "node": ">=20"

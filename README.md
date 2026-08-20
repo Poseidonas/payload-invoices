@@ -1,6 +1,6 @@
 # payload-invoices
 
-[![npm](https://img.shields.io/npm/v/payload-invoices?style=flat-square&color=0F766E)](https://www.npmjs.com/package/payload-invoices) ![node](https://img.shields.io/badge/node-%3E%3D20-339933?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-6C757D?style=flat-square)
+[![npm](https://img.shields.io/npm/v/payload-invoices?style=flat-square&color=0F766E)](https://www.npmjs.com/package/payload-invoices) ![node](https://img.shields.io/badge/node-%3E%3D20-339933?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-6C757D?style=flat-square) ![payload](https://img.shields.io/badge/Payload-3.88+-0a0c0b?style=flat-square)
 
 Issues numbered invoices and credit notes for Payload orders: a gapless sequence per series and year, a frozen snapshot that a later price change cannot touch, and a PDF written without a single runtime dependency.
 
@@ -11,6 +11,8 @@ Issues numbered invoices and credit notes for Payload orders: a gapless sequence
 - No admin components, so it survives minor releases
 
 ## Install
+
+Requires **Payload 3.88 or newer** and **`@payloadcms/plugin-ecommerce` 3.88 or newer**. Verified against Payload 3.88.0 with the official plugin installed.
 
 ```bash
 pnpm add payload-invoices
