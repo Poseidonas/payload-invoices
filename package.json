@@ -15,7 +15,7 @@
   "bugs": "https://github.com/Poseidonas/payload-invoices/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Poseidonas/payload-invoices"
+    "url": "git+https://github.com/Poseidonas/payload-invoices.git"
   },
   "license": "MIT",
   "author": "George Vasiliades (https://github.com/Poseidonas)",
